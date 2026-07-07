@@ -1,0 +1,21 @@
+# data — never commit novels or audio
+input/
+output/
+work/
+
+# model weights (~430 MB; auto-downloaded or copied, see README)
+models/
+
+# project-local pip overrides (recreate: pip install --target deps --no-deps ukrainian-word-stress==1.1.1)
+deps/
+
+# environments and caches
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+
+# scratch
+*.tmp
+*.log

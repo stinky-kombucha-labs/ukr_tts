@@ -1,0 +1,29 @@
+{
+  "dirs": {
+    "input": "input",
+    "output": "output",
+    "work": "work"
+  },
+  "engine": {
+    "vendor_dir": "vendor",
+    "model_dir": "models",
+    "voice": "oleksa",
+    "stress": "dictionary",
+    "device": "cuda"
+  },
+  "text": {
+    "target_chars": 450,
+    "hard_limit_chars": 520
+  },
+  "audio": {
+    "workers": 3,
+    "bitrate": "192k",
+    "min_size_kb": 500,
+    "min_duration_sec": 30
+  },
+  "run": {
+    "action": "full",
+    "force": false,
+    "limit": null
+  }
+}

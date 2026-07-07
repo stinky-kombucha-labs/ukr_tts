@@ -1,0 +1,8 @@
+[project]
+name = "tts-new"
+version = "1.0.0"
+description = "Ukrainian TTS pipeline: turns translated .txt chapters into verified MP3 audiobooks."
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 100
